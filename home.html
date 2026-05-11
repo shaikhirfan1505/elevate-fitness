@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elevate Fitness</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav id="navbar">
+    <div class="logo">ELEVATE</div>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Facilities</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Coaches</a></li>
+      <li><a href="#">Plans</a></li>
+    </ul>
+
+    <a href="#" class="nav-btn">Join Now</a>
+  </nav>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <video autoplay muted loop playsinline>
+      <source src="gym_hero.mp4" type="video/mp4">
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="hero-content">
+      <p class="small-text">PREMIUM FITNESS EXPERIENCE</p>
+
+      <h1>BUILD YOUR<br>STRONGEST SELF</h1>
+
+      <p>
+        Transform your body with elite trainers,
+        world-class equipment, and powerful workouts.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#" class="btn primary-btn">Start Today</a>
+        <a href="#" class="btn secondary-btn">View Programs</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section>
+
+    <div class="about">
+
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop" alt="">
+
+      <div class="about-content">
+        <p>ABOUT US</p>
+        <h2>MORE THAN JUST A GYM</h2>
+
+        <p class="text">
+          We help people transform physically and mentally through expert coaching,
+          modern equipment, and an environment designed for real progress.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FACILITIES -->
+
+  <section>
+
+    <div class="section-title">
+      <p>OUR FACILITIES</p>
+      <h2>TRAIN LIKE A PRO</h2>
+    </div>
+
+    <div class="facilities-grid">
+
+      <div class="facility-card">
+        <div class="facility-icon">🏋️</div>
+        <h3>Strength</h3>
+        <p>Modern strength equipment for serious training.</p>
+      </div>
+
+      <div class="facility-card">
+        <div class="facility-icon">🥊</div>
+        <h3>Boxing</h3>
+        <p>Professional boxing and combat training zone.</p>
+      </div>
+
+      <div class="facility-card">
+        <div class="facility-icon">🏃</div>
+        <h3>Cardio</h3>
+        <p>Advanced cardio machines for endurance building.</p>
+      </div>
+
+      <div class="facility-card">
+        <div class="facility-icon">🧘</div>
+        <h3>Recovery</h3>
+        <p>Stretching and recovery area for better performance.</p>
+      </div>
+
+    </div>
+
+  </section>
+  
+  <!-- GALLERY -->
+  <section class="slider-section">
+
+  <div class="section-title">
+    <p>OUR GALLERY</p>
+    <h2>TRAINING MOMENTS</h2>
+  </div>
+
+  <div class="slider-container">
+
+    <button class="slider-btn left" onclick="moveSlide(-1)">&#10094;</button>
+
+    <div class="slider-wrapper">
+
+      <div class="slider-track" id="sliderTrack">
+
+        <div class="slide"><img src="https://images.pexels.com/photos/17211446/pexels-photo-17211446.jpeg" alt=""></div>
+        <div class="slide"><img src="https://images.pexels.com/photos/6046983/pexels-photo-6046983.png" alt=""></div>
+        <div class="slide"><img src="https://images.pexels.com/photos/36777945/pexels-photo-36777945.jpeg" alt=""></div>
+        <div class="slide"><img src="https://images.pexels.com/photos/13104546/pexels-photo-13104546.jpeg" alt=""></div>
+        <div class="slide"><img src="https://images.pexels.com/photos/15586267/pexels-photo-15586267.jpeg" alt=""></div>
+        <div class="slide"><img src="https://images.pexels.com/photos/4720788/pexels-photo-4720788.jpeg" alt=""></div>
+
+      </div>
+
+    </div>
+
+    <button class="slider-btn right" onclick="moveSlide(1)">&#10095;</button>
+
+  </div>
+
+</section>
+
+  <!-- COACHES -->
+
+<section>
+
+  <div class="section-title">
+    <p>OUR COACHES</p>
+    <h2>MEET THE EXPERTS</h2>
+  </div>
+
+  <div class="coach-grid">
+
+    <!-- COACH 1 -->
+
+    <div class="coach-card">
+
+      <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=1200&auto=format&fit=crop" alt="Ahmed Khan">
+
+      <!-- HOVER OVERLAY -->
+
+      <div class="coach-overlay">
+        <p>
+          Ahmed specializes in strength transformation,
+          muscle building, and performance coaching with
+          over 8 years of professional fitness experience.
+        </p>
+      </div>
+
+      <!-- COACH INFO -->
+
+      <div class="coach-info">
+        <h3>Ahmed Khan</h3>
+        <p>Strength Coach</p>
+      </div>
+
+    </div>
+
+    <!-- COACH 2 -->
+
+    <div class="coach-card">
+
+      <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200&auto=format&fit=crop" alt="David Lee">
+
+      <!-- HOVER OVERLAY -->
+
+      <div class="coach-overlay">
+        <p>
+          David focuses on endurance training,
+          fat loss programs, and helping clients
+          achieve long-term sustainable results.
+        </p>
+      </div>
+
+      <!-- COACH INFO -->
+
+      <div class="coach-info">
+        <h3>David Lee</h3>
+        <p>Fitness Trainer</p>
+      </div>
+
+    </div>
+
+    <!-- COACH 3 -->
+
+    <div class="coach-card">
+
+      <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1200&auto=format&fit=crop" alt="Omar Ali">
+
+      <!-- HOVER OVERLAY -->
+
+      <div class="coach-overlay">
+        <p>
+          Omar is a professional boxing coach helping
+          members improve discipline, technique,
+          conditioning, and athletic performance.
+        </p>
+      </div>
+
+      <!-- COACH INFO -->
+
+      <div class="coach-info">
+        <h3>Omar Ali</h3>
+        <p>Boxing Coach</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- SPECIAL -->
+
+  <section>
+
+    <div class="special">
+
+      <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1200&auto=format&fit=crop" alt="">
+
+      <div class="special-content">
+        <h2>WHAT MAKES US SPECIAL</h2>
+
+        <ul>
+          <li>✔ Elite Personal Trainers</li>
+          <li>✔ Premium Fitness Equipment</li>
+          <li>✔ Customized Workout Programs</li>
+          <li>✔ Positive Training Environment</li>
+          <li>✔ Flexible Membership Plans</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- MEMBERSHIP -->
+
+  <section>
+
+    <div class="section-title">
+      <p>MEMBERSHIP PLANS</p>
+      <h2>CHOOSE YOUR PLAN</h2>
+    </div>
+
+    <div class="plans-grid">
+
+      <div class="plan-card">
+        <h3>Basic</h3>
+        <div class="price">AED 199</div>
+        <p>Gym Access</p>
+        <p>Cardio Area</p>
+        <p>Locker Facility</p>
+      </div>
+
+      <div class="plan-card">
+        <h3>Pro</h3>
+        <div class="price">AED 399</div>
+        <p>All Basic Features</p>
+        <p>Group Classes</p>
+        <p>Trainer Support</p>
+      </div>
+
+      <div class="plan-card">
+        <h3>Elite</h3>
+        <div class="price">AED 699</div>
+        <p>Personal Training</p>
+        <p>Diet Guidance</p>
+        <p>Priority Access</p>
+      </div>
+
+    </div>
+
+  </section>
+
+   <!-- FAQ SECTION -->
+
+<section class="faq-section">
+
+  <div class="section-title">
+    <p>FAQ</p>
+    <h2>FREQUENTLY ASKED QUESTIONS</h2>
+  </div>
+
+  <div class="faq-container">
+
+    <!-- FAQ ITEM -->
+
+    <div class="faq-item">
+
+      <div class="faq-question">
+        <h3>Do you offer personal training?</h3>
+        <span>+</span>
+      </div>
+
+      <div class="faq-answer">
+        <p>
+          Yes, we provide personalized training programs with certified
+          coaches tailored to your fitness goals.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- FAQ ITEM -->
+
+    <div class="faq-item">
+
+      <div class="faq-question">
+        <h3>Are memberships monthly or yearly?</h3>
+        <span>+</span>
+      </div>
+
+      <div class="faq-answer">
+        <p>
+          We offer flexible monthly, quarterly, and yearly membership plans.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- FAQ ITEM -->
+
+    <div class="faq-item">
+
+      <div class="faq-question">
+        <h3>Do you have separate training areas?</h3>
+        <span>+</span>
+      </div>
+
+      <div class="faq-answer">
+        <p>
+          Yes, our gym includes dedicated areas for strength training,
+          cardio, boxing, and recovery.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- FAQ ITEM -->
+
+    <div class="faq-item">
+
+      <div class="faq-question">
+        <h3>Is there parking available?</h3>
+        <span>+</span>
+      </div>
+
+      <div class="faq-answer">
+        <p>
+          Yes, free parking is available for all members and visitors.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- NEWSLETTER -->
+
+  <section>
+
+    <div class="newsletter">
+
+      <h2>JOIN OUR NEWSLETTER</h2>
+
+      <p>
+        Get fitness tips, offers, and updates directly to your inbox.
+      </p>
+
+      <form>
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+    © 2026 Elevate Fitness. All Rights Reserved.
+  </footer>
+
+  <script>
+
+    // Navbar Scroll Effect
+
+    const navbar = document.getElementById("navbar");
+
+    window.addEventListener("scroll", () => {
+
+      if(window.scrollY > 50){
+        navbar.classList.add("scrolled");
+      }
+      else{
+        navbar.classList.remove("scrolled");
+      }
+
+    });
+
+    let currentIndex = 0;
+
+function moveSlide(direction){
+
+  const track = document.getElementById("sliderTrack");
+  const slides = document.querySelectorAll(".slide");
+
+  let visibleSlides = window.innerWidth <= 768 ? 1 : 3;
+
+  const maxIndex = slides.length - visibleSlides;
+
+  currentIndex += direction;
+
+  if(currentIndex < 0){
+    currentIndex = 0;
+  }
+
+  if(currentIndex > maxIndex){
+    currentIndex = maxIndex;
+  }
+
+  const moveX = -(currentIndex * (100 / visibleSlides));
+  track.style.transform = `translateX(${moveX}%)`;
+}
+
+const faqItems = document.querySelectorAll(".faq-item");
+
+faqItems.forEach(item => {
+
+  const question = item.querySelector(".faq-question");
+
+  question.addEventListener("click", () => {
+
+    item.classList.toggle("active");
+
+    const answer = item.querySelector(".faq-answer");
+    const icon = item.querySelector("span");
+
+    if(item.classList.contains("active")){
+      answer.style.maxHeight = answer.scrollHeight + "px";
+      icon.innerHTML = "−";
+    }
+    else{
+      answer.style.maxHeight = "0px";
+      icon.innerHTML = "+";
+    }
+
+  });
+
+});
+
+  </script>
+
+</body>
+</html>
